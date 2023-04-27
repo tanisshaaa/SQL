@@ -1,0 +1,4 @@
+create table products(product_id int,product_name varchar(50),category varchar(50),price int);
+insert into products values(1,'T-Shirt','Clothing',10.99),(2,'Socks','Clothing',4.99),(3,'Hat','Accessories',12.99),(4,'Shoes','Footwear',59.99),(5,'Backpack','Accessories',29.99),(6,'Pants','Clothing',24.99);
+select all * from products;
+select distinct category from products;
