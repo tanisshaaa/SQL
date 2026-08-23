@@ -4,7 +4,7 @@
 
 -- Easy
 -- 1. Return employee_id, first_name, last_name and salary from employees.
-
+select employee_id, first_name, last_name, salary from employees;
 -- 2. Return product_name, category and price from products.
 
 -- 3. Return customer names and cities from customers.
